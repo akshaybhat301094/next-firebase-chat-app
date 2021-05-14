@@ -1,0 +1,54 @@
+.chatWindow {
+  color: var(--white-100);
+  margin: 10px;
+  height: calc(100vh - 60px - 80px);
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.chatMessage {
+}
+
+.input_container {
+  height: 40px;
+}
+
+.form,
+.textbox,
+.submit {
+  height: 100%;
+  border: 1px solid var(--grey-100);
+  background-color: var(--grey-100);
+  border-radius: 4px;
+  color: var(--white-100);
+}
+
+.textbox {
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  padding-left: 10px;
+}
+
+.textbox:focus {
+  outline: none;
+}
+
+.textbox::placeholder {
+  color: var(--white-100);
+}
+
+.submit {
+  width: 20%;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.submit:disabled {
+  opacity: 0.5;
+}

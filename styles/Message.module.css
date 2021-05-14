@@ -1,0 +1,33 @@
+.text_container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.floatRight {
+  float: right;
+}
+
+.text_container img {
+  border-radius: 50%;
+}
+
+.text_content {
+  margin-left: 15px;
+}
+
+.user_name {
+  color: var(--secondary-pink);
+  margin-right: 10px;
+}
+
+.last_seen {
+  font-size: 12px;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+.text_container .text_msg {
+  margin: 10px 0;
+  color: #fff;
+}
