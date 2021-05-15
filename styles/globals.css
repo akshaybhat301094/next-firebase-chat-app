@@ -22,6 +22,8 @@ a {
 
 :root {
   --black-100: #36393f;
+  --light-100: #ffffff;
+  --dark-100: #36393f;
   --white-100: #b0b9bf;
   --grey-100: #40444b;
   --topbar-height: 60px;
